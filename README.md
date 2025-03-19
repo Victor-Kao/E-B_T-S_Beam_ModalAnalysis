@@ -3,9 +3,20 @@
 ### Test Cases:
 - S-S
 - Fixed-Fixed
-- Free-Free
 - Fixed-Free
 
 ###  The relationship of slenderness and similarity of Timoshenko and E-B Beam 
-#### 3D plot: X = i-th modes, Y = element size, Z = Error
-#### Sensitivity Analysis of Slenderness along i-th modes
+
+#### Known problems in comparison:
+- element size
+- L/T ratio
+- Slenderness considering E and nu
+- Convergence
+#### 3D plot: X = i-th modes, Y = element size, Z = Error compared to E-B result
+
+#### 3D plot: X = i-th modes, Y = slenderness (L/T), Z = Error compared to E-B result
+- Assume the element size is fix
+
+#### 3D plot: X = i-th modes, Y = element size when start convergence,   Z = L/T
+#### 3D plot: X = i-th modes, Y = sensitivity on natural frequency on (L/T/E/W/rho/nu), Z = level
+- Assume the element size is fix 
